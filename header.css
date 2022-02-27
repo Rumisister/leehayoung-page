@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+    position: fixed;
+}
+
+.header__list-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+    margin-right: 70px;
+}
+
+.header__link{
+    color: #BDB76B;
+    text-decoration-line: none;
+    font-weight: 800;
+}
+
+@keyframes menuanimation{
+    0%{
+        color: #BDB76B;
+       
+    }
+    50%{
+        color: teal;
+        
+    }
+    100%{
+        color:#BDB76B;
+        
+    }
+}
+
+.header__btn:hover a{
+    animation: menuanimation 2s linear infinite;
+}
+
+.header__btn{
+    list-style: none;
+    margin-left: 84px;
+}
